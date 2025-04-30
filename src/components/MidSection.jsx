@@ -3,7 +3,7 @@ import Mid from "./Mid";
 
 function MidSection() {
   return (
-    <div className="flex items-center justify-center mt-4 p-10 bg-slate-200">
+    <div className="flex items-center justify-center mt-4 p-10 bg-slate-100">
         
         <Mid/>
         <Mid/>

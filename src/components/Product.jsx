@@ -1,24 +1,24 @@
-import React from 'react'
+import React from "react";
 
 function Product() {
   return (
-    <div className='p-2'>
-      <div className='flex flex-col items-center w-full'>
-        <img className='rounded-xl' src="images/image.png" h-10 w-10 alt="" />
-        
-      
-    </div>
-    <div className='p-2'>
-    <h2 className='pt-2 font-bold'>Privacy Policy Generator</h2>
-        <div className='text-wrap pt-2'>
-        Stock your store with 100s of products and start selling to customers in minutes, without the hassle of inventory or packaging.
+    <div className="p-4 w-full mx-auto">
+      <div className="flex flex-col items-center w-full shadow-sm">
+        <img
+          className="rounded-xl h-40 w-full object-cover"
+          src="images/image.png"
+          alt=""
+        />
+        <div className="p-4 space-y-2">
+          <h2 className=" text-lg font-semibold">Privacy Policy Generator</h2>
+          <p className="text-wrap  text-sm text-gray-500">
+            Stock your store with 100s of products and start selling to
+            customers in minutes, without the hassle of inventory or packaging.
+          </p>
         </div>
+      </div>
     </div>
-
-    </div>
-    
-    
-  )
+  );
 }
 
-export default Product
+export default Product;

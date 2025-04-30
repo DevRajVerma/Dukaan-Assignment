@@ -1,7 +1,7 @@
 
 import TextList from "./components/TextList";
 import SloganMaker from "./components/SloganMaker";
-import Overlap from "./components/Overlap";
+import Overlap from "./components/TopSection";
 import MidSection from "./components/MidSection";
 import ProductGrid from "./components/ProductGrid";
 import Footer from "./components/Footer";
@@ -12,6 +12,10 @@ function App() {
 
       <Overlap/>
       <MidSection/>
+      <div className="pl-[149.316px] pt-10">
+      <h3 className="font-bold text-2xl ">Try our other free Products</h3>
+      </div>
+      
       <ProductGrid/>
       <Footer/>
 
