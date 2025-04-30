@@ -12,7 +12,7 @@ function App() {
 
       <Overlap/>
       <MidSection/>
-      <div className="pl-[149.316px] pt-10">
+      <div className="pl-[63px] pt-10">
       <h3 className="font-bold text-2xl ">Try our other free Products</h3>
       </div>
       
