@@ -2,7 +2,7 @@ import React from 'react'
 
 function Product() {
   return (
-    <div>
+    <div className='p-2'>
       <div className='flex flex-col items-center w-full'>
         <img className='rounded-xl' src="images/image.png" h-10 w-10 alt="" />
         
