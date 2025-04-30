@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Candid Style Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Candid Style Regular'), url('/fonts/Candid Style.woff') format('woff');
+    }
